@@ -1,0 +1,30 @@
+
+#mark{
+    color: rgb(73, 25, 25);
+    background-color: lightgoldenrodyellow;
+    font: 1em Calibri;
+}
+h1 {
+   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+h1{
+    color:white;
+    background-image: url("../assets/images/blood drops 4 count.jpg");
+}
+h3{
+    color:red;
+    background-color: lightgoldenrodyellow;
+    font-family:cursive;
+}
+#bg {
+    /* The image used */
+    background-image: url("../assets/images/blood drops.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    color: black;
+    background-size: 100% ;  
+    background-size: cover; 
+  }

@@ -1,0 +1,50 @@
+<div class='card'>
+    <form (ngSubmit)="editDonor()" class='bg-pic'>
+<div class='card-header'>
+ Edit Donor
+</div>
+<div class='card-body'>            
+  <div class='table-responsive'>
+    <table class='table'>       
+    
+      <tbody>  
+          <tr>
+              <td> <label>Donor Id</label></td>
+              <td><input type="text" name="d_id"  [(ngModel)]="donorItem.donorId"/></td>                  
+            </tr>   
+            <tr>
+                <td><label>Donor Name</label></td>
+                <td><input type="text" name="d_name" [(ngModel)]="donorItem.donorName"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>Donor Code</label></td>
+                <td><input type="text" name="d_code" [(ngModel)]="donorItem.donorCode"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>Last Donated Date</label></td>
+                <td><input type="text" name="d_date" [(ngModel)]="donorItem.lastdonatedDate"/></td>                  
+              </tr>  
+              <tr>
+                <td><label>Donor Address</label></td>
+                <td><input type="text" name="d_address" [(ngModel)]="donorItem.address"/></td>                  
+              </tr>  
+              
+              <tr>
+                <td> <label>Donor Blood Group</label></td>
+                <td><input type="text" name="d_bloodgroup" [(ngModel)]="donorItem.bloodgroup"/></td>                  
+              </tr>  
+              
+              <tr>
+                <td><label>Donor imageUrl</label></td>
+                <td><input type="text" name="d_image" [(ngModel)]="donorItem.imageUrl"/></td>                  
+              </tr>  
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>                  
+              </tr>             
+      </tbody>
+    </table>
+  </div>
+</div>
+</form>
+</div>
