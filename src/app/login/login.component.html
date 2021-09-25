@@ -10,12 +10,20 @@
         </div>
         <div class="card-body">
           <form  (ngSubmit)="loginUser()" #userlogin="ngForm">
+            <!--
             <div >
               <label for="uname">Username</label>
               &nbsp;&nbsp;
-              <input type="text" name="uname" [(ngModel)]= "user.uname" required /> <!--#email="ngModel"  [class.is-invalid]="email.invalid && email.touched"  [(ngModel)]="user.uname"  pattern="^[a-z0-9.%+]+@[a-z0-9.-]+\.[a-z]{2,4}" required/>-->
-              <!--<small class="text-danger" [class.d-none]="email.valid || email.touched">Enter valid email</small>-->
-              </div>
+              <input type="text" name="uname" [(ngModel)]= "user.uname" required /> #email="ngModel"  [class.is-invalid]="email.invalid && email.touched"  [(ngModel)]="user.uname"  pattern="^[a-z0-9.%+]+@[a-z0-9.-]+\.[a-z]{2,4}" required/>-->
+              <!--<small class="text-danger" [class.d-none]="email.valid || email.touched">Enter valid email</small>
+              </div>-->
+              <div >
+                <label for="uname1">Username</label>
+                &nbsp;&nbsp;
+                <input type="text" name="uname" [(ngModel)]="user.uname" required/>
+             
+                </div>
+
             <div>
               <br>
               <label>Password</label>
