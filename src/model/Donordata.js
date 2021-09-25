@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Donors');
+//mongoose.connect('mongodb://localhost:27017/Donors');
+mongoose.connect('mongodb+srv://userone:userone@cluster0.cl3nk.mongodb.net/ICTAKFILES?retryWrites=true&w=majority').then(()=>{
+    console.log('database connected.')
+}).catch((err) => console.log("Not connected"));
 const Schema = mongoose.Schema;
 
 var NewDonorSchema = new Schema({
